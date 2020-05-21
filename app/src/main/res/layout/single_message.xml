@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/single_message_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/single_message1"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            android:background="@drawable/chatbackground">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/Name"
+                android:paddingStart="10dp"
+                android:textSize="18sp"
+                android:text="Name"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/msg"
+                android:textSize="15sp"
+                android:text="Message"
+                android:paddingStart="15dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/msgtime"
+                android:text="time"
+                android:layout_marginTop="5dp"
+                android:paddingStart="10dp"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:iconTint="@color/colorAccent"
+        android:title="Message"
+        android:id="@+id/message01"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_chat_bubble_black_24dp"/>
+
+    <item
+        android:iconTint="@color/colorAccent"
+        android:title="Notification"
+        android:id="@+id/notification"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_priority_high_black_24dp"/>
+
+</menu>
